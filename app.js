@@ -1,7 +1,7 @@
 let isCelsius = true;
 
 async function fetchWeather(location) {
-  const apiKey = 'd04ab0f2f3bbc9b4545fcaf293d5b9d5';
+  const apiKey = 'apiKey';
   const loading = document.getElementById("loading");
   const error = document.getElementById("error");
   const weatherInfo = document.getElementById("weather-info");
